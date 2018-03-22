@@ -11,7 +11,7 @@
 namespace WhetherPOC {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/sunilchowdary/Documents/test/CodingTest/WhetherPOC/MapPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/sunilchowdary/Downloads/test/CodingTest/WhetherPOC/MapPage.xaml")]
     public partial class MapPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

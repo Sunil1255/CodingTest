@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D6E9E653-BE2F-4048-B420-86B3AF3AEAB7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WhetherPOC/MapPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WhetherPOC/App.xaml.cs">
     <Files>
       <File FileName="WhetherPOC/ServiceAccess/WebserviceManager.cs" Line="21" Column="1" />
       <File FileName="WhetherPOC/WhetherPOCPage.xaml" Line="10" Column="1" />
@@ -8,8 +8,8 @@
       <File FileName="WhetherPOC/Models/Wheather.cs" Line="54" Column="26" />
       <File FileName="WhetherPOC/ServiceAccess/ExploreSL.cs" Line="12" Column="1" />
       <File FileName="WhetherPOC/App.xaml.cs" Line="11" Column="13" />
-      <File FileName="WhetherPOC/MapPage.xaml" Line="19" Column="1" />
-      <File FileName="WhetherPOC/MapPage.xaml.cs" Line="51" Column="13" />
+      <File FileName="WhetherPOC/MapPage.xaml" Line="14" Column="33" />
+      <File FileName="WhetherPOC/MapPage.xaml.cs" Line="9" Column="7" />
       <File FileName="WhetherPOC/SQLite-AppSample/SQLiteSamplePage.cs" Line="9" Column="42" />
       <File FileName="WhetherPOC/SQLite-AppSample/TodoItem.cs" Line="19" Column="6" />
       <File FileName="iOS/AppDelegate.cs" Line="3" Column="19" />
@@ -21,16 +21,17 @@
       <File FileName="Droid/Properties/AndroidManifest.xml" Line="7" Column="12" />
       <File FileName="WhetherPOC/SQLite/ISQLite.cs" Line="1" Column="1" />
       <File FileName="WhetherPOC/ILocation.cs" Line="1" Column="1" />
+      <File FileName="WhetherPOC/App.xaml" Line="7" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/sunilchowdary/Documents/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="17" column="1" />
-      <Breakpoint file="/Users/sunilchowdary/Documents/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="41" column="1" />
-      <Breakpoint file="/Users/sunilchowdary/Documents/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="52" column="1" />
-      <Breakpoint file="/Users/sunilchowdary/Documents/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="12" column="1" />
-      <Breakpoint file="/Users/sunilchowdary/Documents/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="25" column="1" />
+      <Breakpoint enabled="false" file="/Users/sunilchowdary/Downloads/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="17" column="1" />
+      <Breakpoint enabled="false" file="/Users/sunilchowdary/Downloads/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="41" column="1" />
+      <Breakpoint enabled="false" file="/Users/sunilchowdary/Downloads/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="52" column="1" />
+      <Breakpoint enabled="false" file="/Users/sunilchowdary/Downloads/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="12" column="1" />
+      <Breakpoint enabled="false" file="/Users/sunilchowdary/Downloads/test/CodingTest/WhetherPOC/MapPage.xaml.cs" relfile="WhetherPOC/MapPage.xaml.cs" line="25" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
