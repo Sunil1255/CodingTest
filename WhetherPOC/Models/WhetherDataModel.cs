@@ -14,7 +14,7 @@ namespace WhetherPOC.Models
 
         public override string ToString()
         {
-            return string.Format("name : {0}, country : {1}", name, country);
+            return string.Format("City : {0}    |     Country : {1}", name, country);
         }
     }
 }

@@ -10,20 +10,30 @@
 	<ContentPage.Content>
         <StackLayout VerticalOptions="Start">
        <maps:Map x:Name="googlemap" Grid.Row="1" Grid.Column="0" IsShowingUser="true" MapType="Street" HeightRequest="200" HasScrollEnabled="true" HasZoomEnabled="true" />
+
         <StackLayout x:Name="dataContent" Orientation="Horizontal">
-        <Label Text="Temperature:">  </Label>
-        <Label x:Name="Name">  </Label>
+         <Label Text="  Temperature:">  </Label>
+         <Label x:Name="Temperature">  </Label>
+        </StackLayout>
 
-            </StackLayout>
-            <StackLayout x:Name="DataCountry" Orientation="Horizontal">
-        <Label Text="Country:">  </Label>
-        <Label x:Name="Country">  </Label>
+        <StackLayout x:Name="dataHumidity" Margin="190,-26,0,0" Orientation="Horizontal">
+         <Label Text="|     Humidity:">  </Label>
+         <Label x:Name="Humidity">  </Label>
+        </StackLayout>
 
-            </StackLayout>
-            <StackLayout x:Name="dataName">
-                    <Label Text="Favorites" Margin="0,40,0,0" FontAttributes="Bold">  </Label>
-          
-            </StackLayout>
+        <StackLayout x:Name="WindData" Orientation="Horizontal">
+         <Label Text="   Wind:">  </Label>
+         <Label x:Name="Wind">  </Label>
+        </StackLayout>
+            
+        <StackLayout x:Name="LocationData"  Margin="190,-26,0,0" Orientation="Horizontal">
+         <Label Text="|     Location:">  </Label>
+         <Label x:Name="Location">  </Label>
+        </StackLayout>
+
+         <StackLayout x:Name="dataName">
+           <Label Text="  Favorite Places" Margin="0,15,0,0" FontAttributes="Bold" TextColor="Olive">  </Label>          
+         </StackLayout>
             
         </StackLayout>
 	</ContentPage.Content>

@@ -17,10 +17,10 @@ namespace WhetherPOC
         {
             InitializeComponent();
 
-            // Name.Text = whether.wind.deg.ToString();
-            Name.Text = whether.main.temp.ToString();
-
-            Country.Text = whether.sys.country;
+            Temperature.Text = whether.main.temp.ToString();
+            Humidity.Text = whether.main.humidity.ToString();
+            Wind.Text = whether.wind.speed.ToString();
+            Location.Text = whether.sys.country;
 
        
             _sqLiteConnection = DependencyService.Get<ISQLite>().GetConnection();
@@ -65,8 +65,8 @@ namespace WhetherPOC
             {
                 Type = PinType.Place,
                 Position = new Position(Convert.ToDouble(data.coord.lat), Convert.ToDouble(data.coord.lon)),
-                Label = "test",
-                Address = "test"
+                Label = "Mountain View",
+                Address = "US"
 
             };
             googlemap.Pins.Add(pin);

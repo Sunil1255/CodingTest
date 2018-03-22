@@ -152,3 +152,4 @@
 /Users/sunilchowdary/Downloads/test/CodingTest/iOS/obj/iPhoneSimulator/Debug/WhetherPOC.iOS.csproj.CoreCompileInputs.cache
 /Users/sunilchowdary/Downloads/test/CodingTest/iOS/obj/iPhoneSimulator/Debug/WhetherPOC.iOS.exe
 /Users/sunilchowdary/Downloads/test/CodingTest/iOS/obj/iPhoneSimulator/Debug/WhetherPOC.iOS.pdb
+/Users/sunilchowdary/Downloads/test/CodingTest/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/optimized/more_icon.png
